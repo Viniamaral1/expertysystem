@@ -111,7 +111,6 @@ class GymExpertSystem:
      if current_level == "beginner" and weight <= 50.0 and goal == "weight_loss" and age <= 50 and body_injury == "no":
             suggested_exercises.append("Based on your answers, here are some suggestions: Focus on a combination of cardio exercises like running, cycling, and high-intensity interval training (HIIT). Additionally, incorporate bodyweight exercises like burpees, jumping jacks, and bodyweight squats.")
             suggested_exercises.append("Ensure to maintain a calorie deficit through a balanced diet to support your weight loss goals.")
-            suggested_exercises.append("Consult with a fitness professional to create a personalized workout plan based on your specific goals and fitness level.")
 
         
    # Rule 2
